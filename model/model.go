@@ -19,8 +19,7 @@ type Book struct {
 	Price       float32   `sql:"type:decimal(10,2);"`
 	StockCode   string
 	ISBN        string
-	AuthorID    int
-	Author      Author
+	AuthorID    uint
 }
 
 func (Author) TableName() string {

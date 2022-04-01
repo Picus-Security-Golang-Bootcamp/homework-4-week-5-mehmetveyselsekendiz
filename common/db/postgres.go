@@ -34,3 +34,17 @@ func NewPsqlDB() (*gorm.DB, error) {
 
 	return db, nil
 }
+
+// Laptop con
+// DB_HOST="127.0.0.1"
+// DB_PORT=5432
+// DB_USERNAME="mvs"
+// DB_NAME="bookstore"
+// DB_PASSWORD="mvsadmin"
+
+//Pc con
+// DB_HOST="localhost"
+// DB_PORT=5432
+// DB_USERNAME="postgres"
+// DB_NAME="bookstore"
+// DB_PASSWORD="admin"
